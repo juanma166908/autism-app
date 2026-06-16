@@ -2,16 +2,16 @@ import React from 'react';
 
 function pronunciar(nombre) {
   const correcciones = {
-    'matias': 'matías',
-    'sofia': 'sofía',
-    'maria': 'maría',
-    'jose': 'josé',
-    'sebastian': 'sebastián',
-    'julian': 'julián',
-    'andres': 'andrés',
-    'nicolas': 'nicolás',
-    'tomas': 'tomás',
-    'valeria': 'valéria',
+    'matias': 'matÃ­as',
+    'sofia': 'sofÃ­a',
+    'maria': 'marÃ­a',
+    'jose': 'josÃ©',
+    'sebastian': 'sebastiÃ¡n',
+    'julian': 'juliÃ¡n',
+    'andres': 'andrÃ©s',
+    'nicolas': 'nicolÃ¡s',
+    'tomas': 'tomÃ¡s',
+    'valeria': 'valÃ©ria',
     'evelyn': 'evelin',
   };
   const lower = nombre.toLowerCase();

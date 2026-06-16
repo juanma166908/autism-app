@@ -29,8 +29,8 @@ function PatientName({ nombre, genero, onSave, modoOscuro }) {
             onChange={e => setTempGenero(e.target.value)}
             style={{ padding: '10px', fontSize: '18px', borderRadius: '10px', border: '2px solid #0984E3', outline: 'none', backgroundColor: fondo, color: textoColor }}
           >
-            <option value="nino">Niño</option>
-            <option value="nina">Niña</option>
+            <option value="nino">NiÃ±o</option>
+            <option value="nina">NiÃ±a</option>
           </select>
           <button onClick={handleSave} style={{ padding: '10px 20px', backgroundColor: '#0984E3', color: 'white', border: 'none', borderRadius: '10px', fontSize: '16px', cursor: 'pointer', fontWeight: 'bold' }}>
             Guardar
@@ -39,7 +39,7 @@ function PatientName({ nombre, genero, onSave, modoOscuro }) {
       ) : (
         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '10px' }}>
           <span style={{ fontSize: '20px', color: textoColor }}>
-            Paciente: <strong>{nombre || 'Sin nombre'}</strong> {genero === 'nina' ? 'Niña' : 'Niño'}
+            Paciente: <strong>{nombre || 'Sin nombre'}</strong> {genero === 'nina' ? 'NiÃ±a' : 'NiÃ±o'}
           </span>
           <button onClick={() => setEditando(true)} style={{ padding: '6px 14px', backgroundColor: '#55EFC4', color: '#333', border: 'none', borderRadius: '8px', fontSize: '14px', cursor: 'pointer', fontWeight: 'bold' }}>
             Cambiar
