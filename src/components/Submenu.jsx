@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 
 function Submenu({ emotion, opciones, onSelect, onClose, nombrePaciente, generoPaciente }) {
   const hablar = (opcion) => {

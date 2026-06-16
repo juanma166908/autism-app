@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 
 function EmotionChart({ conteo, historial }) {
   if (Object.keys(conteo).length === 0) return null;

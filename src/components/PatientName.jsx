@@ -1,4 +1,4 @@
-﻿import React, { useState } from 'react';
+import React, { useState } from 'react';
 
 function PatientName({ nombre, genero, onSave, modoOscuro }) {
   const [editando, setEditando] = useState(false);

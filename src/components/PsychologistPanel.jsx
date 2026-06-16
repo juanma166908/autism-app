@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 
 function PsychologistPanel({ historial, onClear, nombrePaciente, letraGrande }) {
   const fontSize = letraGrande ? '18px' : '14px';

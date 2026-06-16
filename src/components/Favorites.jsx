@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 
 function Favorites({ favoritos, onSelect, nombrePaciente }) {
   if (favoritos.length === 0) return null;

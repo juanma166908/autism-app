@@ -1,4 +1,4 @@
-﻿const emotions = [
+const emotions = [
   { id: 1,  label: 'Hambre',      emoji: '🍽️', fotoLocal: 'hambre.jpg',      color: '#FF6B6B', categoria: 'Cuerpo',      fraseNino: 'tiene hambre',              fraseNina: 'tiene hambre',              fraseYo: 'Tengo hambre' },
   { id: 2,  label: 'Sed',         emoji: '💧',  fotoLocal: 'sed.jpg',         color: '#4ECDC4', categoria: 'Cuerpo',      fraseNino: 'tiene sed',                 fraseNina: 'tiene sed',                 fraseYo: 'Tengo sed' },
   { id: 3,  label: 'Sueño',       emoji: '😴',  fotoLocal: 'sueno.jpg',       color: '#A8E6CF', categoria: 'Cuerpo',      fraseNino: 'tiene sueño',               fraseNina: 'tiene sueño',               fraseYo: 'Tengo sueño' },

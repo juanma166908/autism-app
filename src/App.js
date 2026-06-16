@@ -1,4 +1,4 @@
-﻿import React, { useState } from 'react';
+import React, { useState } from 'react';
 import EmotionGrid from './components/EmotionGrid';
 import ResponseMessage from './components/ResponseMessage';
 import PsychologistPanel from './components/PsychologistPanel';

@@ -1,4 +1,4 @@
-﻿const submenus = {
+const submenus = {
   1: {
     titulo: 'Que quieres comer?',
     opciones: [

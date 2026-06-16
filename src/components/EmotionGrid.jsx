@@ -1,4 +1,4 @@
-﻿import React, { useState } from 'react';
+import React, { useState } from 'react';
 import EmotionButton from './EmotionButton';
 import emotions from '../data/emotions';
 

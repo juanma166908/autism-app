@@ -1,4 +1,4 @@
-﻿import React, { useState } from 'react';
+import React, { useState } from 'react';
 
 function PasswordModal({ onSuccess, onCancel }) {
   const [password, setPassword] = useState('');
